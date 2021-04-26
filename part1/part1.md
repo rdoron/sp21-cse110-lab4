@@ -1,4 +1,4 @@
-part 1a  
+## part 1a  
 1. values added: 20
 2. final result: 20 
 3. values added: 20 
@@ -6,7 +6,7 @@ part 1a
 5. you would get an error because you would not reach line 9 because you would get an error in line 7. Declaring a variable with the const prevents it from being reassigned after it is assigned for the first time. Therefore, trying to reassign results value to be num1 + num2 would produce an error. 
 6. you would get an error because you would not reach line 13 because you would get an error in line 7. Declaring a variable with the const prevents it from being reassigned after it is assigned for the first time. Therefore, trying to reassign results value to be num1 + num2 would produce an error. 
    
-part 1b
+## part 1b
 1. line 12 will print out 3 because var has no block scope so in line 12 it will still recognize that the variable i holds the value 3. 
 2. line 13 will print out 150 becuase the value of discountedPrice changed with each iteration and on the last iteration the value of discounted price is 150. Since var has no block socpe even outside the for loop the value of discoutnedPrice would be recognized as 150. 
 3. line 14 will print out 150 because in the last iteration of the for loop finalPrice is assigned the value 150. Since finalPrice is a var it has no block scope making it visable through blocks. 
